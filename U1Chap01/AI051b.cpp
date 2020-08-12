@@ -1,6 +1,6 @@
 // Filename: \\U1Chap01\AI051b.CPP
-#include<iostream.h>
-#include<string.h>
+#include<iostream>
+#include<string>
 #include<ctype.h>
 void Change(char Msg[], int Len)
 {
@@ -15,7 +15,7 @@ void Change(char Msg[], int Len)
 		else Msg[Count] = '*';
 	}
 }
-void main()
+int main()
 {
 	char Message[] = "2005 Tests ahead";
 	int Size = strlen(Message);
