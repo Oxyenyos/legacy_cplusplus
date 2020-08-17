@@ -1,7 +1,7 @@
 // Filename: \\U1Chap01\AI051a.CPP
-#include <iostream.h>
+#include <iostream>
 const int Divider = 5;
-void main()
+int main()
 {
 	int Number = 15;
 	for (int Count = 1; Count<=5; Count++, Number-=3)
